@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <object-set>
+    <root path="">
+      <view name="Employee" query="show processlist"/>
+    </root>
+    <dv.virtualview path="Employee">
+      <column name="virtual_column_name" expr=""/>
+    </dv.virtualview>
+  </object-set>
+</data>
